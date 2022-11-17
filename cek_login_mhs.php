@@ -4,7 +4,7 @@ session_start();
  
 // menghubungkan php dengan koneksi database
 include 'db_connect.php';
- 
+ //sdasdnaksndmanqwsqw
 // menangkap data yang dikirim dari form login
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -38,5 +38,3 @@ if($cek > 0){
             header("location:index.php");
     }
 }
- 
-?>
